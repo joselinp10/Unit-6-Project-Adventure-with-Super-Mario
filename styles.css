@@ -1,0 +1,59 @@
+body {
+    color: white;
+    text-align: center;
+    font-family: 'Bree Serif', serif;
+    background-color:#3D8DED;
+    background: radial-gradient(circle, lightblue, blue);
+}
+
+.title {
+    font-size: 30px;
+    background-color: red;
+    font-weight: 800;
+    padding: 0 20px;
+}
+
+.button {
+    display: flex;
+    justify-content: space-around;  
+}
+
+p {
+    font-size: 30px;
+    font-weight: 800;
+}
+
+.firstImage {
+    height: 300px;
+}
+
+p{
+    display:none;
+    color:black;
+    font-size:30px;
+}
+.pipe-img,.sad-mario-img,.mushroom-img,.luigi-img,.luigi-img2,.banana-peel,.luigi-gif{
+    display:none;
+    height:250px;
+}
+.coins-img{
+    display:none;
+    height:250px;
+    border:3px solid black;
+}
+
+.start-button,.start-button2,.trade-button,.denytrade-button{
+    background-color:white;
+    height:40px;
+    color:blue;
+}
+.buttons2{
+    display:flex;
+    height:40px;
+    justify-content:space-around;
+}
+button.margin-right{
+    margin-right:20px;
+}
+
+
